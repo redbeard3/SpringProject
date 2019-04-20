@@ -5,12 +5,10 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-    <bean class="red.beard.InjectRandomIntAnnotationBeanPostProcessor"/>
+    <bean class="redbeard.InjectRandomIntAnnotationBeanPostProcessor"/>
 
-    <bean class="red.beard.TerminatorQuoter" id="terminatorQuoter">
+    <bean class="redbeard.TerminatorQuoter" id="terminatorQuoter">
     	<property name="message" value="I'll be back"/>
     </bean>
-
-   
 
 </beans>
