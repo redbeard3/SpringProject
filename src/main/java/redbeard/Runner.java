@@ -1,4 +1,4 @@
-package red.beard;
+package redbeard;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Runner{

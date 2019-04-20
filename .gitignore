@@ -1,0 +1,16 @@
+
+target/classes/common_beans\.xml
+
+target/classes/red/beard/InjectRandomIntAnnotationBeanPostProcessor\.class
+
+target/maven-archiver/pom\.properties
+
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles\.lst
+
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles\.lst
+
+target/original-beard\.red-1\.0-SNAPSHOT\.jar
+
+target/*
+
+*.jar
