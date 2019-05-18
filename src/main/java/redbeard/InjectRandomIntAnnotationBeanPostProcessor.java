@@ -25,6 +25,6 @@ public class InjectRandomIntAnnotationBeanPostProcessor implements BeanPostProce
     }
 
     public Object postProcessAfterInitialization(Object o, String s) throws BeansException {
-        return null;
+        return o;
     }
 }
