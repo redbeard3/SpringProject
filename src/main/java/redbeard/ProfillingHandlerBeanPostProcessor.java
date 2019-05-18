@@ -24,7 +24,7 @@ public class ProfillingHandlerBeanPostProcessor implements BeanPostProcessor {
     // регистрируем бин в MBean
     private ProfillingHandlerBeanPostProcessor() throws MalformedObjectNameException, NotCompliantMBeanException, InstanceAlreadyExistsException, MBeanRegistrationException {
         MBeanServer platformMBeanServer = ManagementFactory.getPlatformMBeanServer();
-        platformMBeanServer.registerMBean(controller, new ObjectName("profalling", "name", "controller"));
+        platformMBeanServer.registerMBean(controller, new ObjectName("profilling", "name", "controller"));
     }
 
     public Object postProcessBeforeInitialization(Object o, String s) throws BeansException {
